@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJKXVH5P0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LJKXVH5P0V');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
+<script src="../support.js"></script>
 </head>
 <body>
 <x-dc>
 <helmet>
-<link rel="icon" type="image/svg+xml" href="./Image/Logo.svg">
+<link rel="icon" type="image/svg+xml" href="../Image/Logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../style.css">
 </helmet>
 
 <div data-progress style="position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:120;will-change:width;"></div>
 
 <nav style="position:fixed;top:0;left:0;width:100%;height:76px;z-index:90;display:flex;justify-content:space-between;align-items:center;padding:0 clamp(18px,4.5vw,60px);box-sizing:border-box;mix-blend-mode:difference;transition:background .3s ease;">
-  <a href="index.html" data-hover style="display:flex;align-items:center;font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:-.01em;color:#fff;"><span class="nav-logo-text">Nathapol Aubdin<sup style="font-size:9px;font-weight:700;vertical-align:super;">®</sup></span><img src="./Image/Logo.svg" alt="Nathapol Aubdin" class="nav-logo-img"></a>
+  <a href="../" data-hover style="display:flex;align-items:center;font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:-.01em;color:#fff;"><span class="nav-logo-text">Nathapol Aubdin<sup style="font-size:9px;font-weight:700;vertical-align:super;">®</sup></span><img src="../Image/Logo.svg" alt="Nathapol Aubdin" class="nav-logo-img"></a>
   <input type="checkbox" id="navToggle" class="nav-toggle-cb">
   <label for="navToggle" class="nav-backdrop" aria-hidden="true"></label>
   <div class="navlinks" style="display:flex;gap:clamp(14px,2vw,28px);align-items:center;font-size:13px;font-weight:600;">
-    <a href="index.html" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Home</span><span data-lang-th>หน้าแรก</span></a>
-    <a href="UXUI.dc.html" data-hover style="color:#fff;text-decoration:none;">UX/UI</a>
-    <a href="Graphics.dc.html" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Graphics</span><span data-lang-th>กราฟิก</span></a>
-    <a href="About.dc.html" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>About</span><span data-lang-th>เกี่ยวกับ</span></a>
+    <a href="../" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Home</span><span data-lang-th>หน้าแรก</span></a>
+    <a href="../UXUI/" data-hover style="color:#fff;text-decoration:none;">UX/UI</a>
+    <a href="../Graphics/" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Graphics</span><span data-lang-th>กราฟิก</span></a>
+    <a href="../About/" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>About</span><span data-lang-th>เกี่ยวกับ</span></a>
     <div class="nav-actions" style="display:flex;align-items:center;gap:10px;">
       <div class="lang-toggle" role="group" aria-label="Language">
         <button type="button" data-lang-btn="en" data-hover class="lang-btn">EN</button>
         <button type="button" data-lang-btn="th" data-hover class="lang-btn">TH</button>
       </div>
-      <a href="./Resume/Nathapol-Aubdin-Resume.pdf" target="_blank" rel="noopener" data-hover style="display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:8px 16px;color:#fff;text-decoration:none;background:rgba(255,255,255,.03);transition:border-color .25s,color .25s;" style-hover="border-color:var(--accent);color:var(--accent)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span data-lang-en>Resume</span><span data-lang-th>เรซูเม่</span></a>
-      <a href="Contact.dc.html" data-hover style="background:var(--accent);color:#08080a;font-weight:700;padding:9px 20px;border-radius:30px;transition:transform .25s;" style-hover="transform:scale(1.06)"><span data-lang-en>Contact</span><span data-lang-th>ติดต่อ</span></a>
+      <a href="../Resume/Nathapol-Aubdin-Resume.pdf" target="_blank" rel="noopener" data-hover style="display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:8px 16px;color:#fff;text-decoration:none;background:rgba(255,255,255,.03);transition:border-color .25s,color .25s;" style-hover="border-color:var(--accent);color:var(--accent)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span data-lang-en>Resume</span><span data-lang-th>เรซูเม่</span></a>
+      <a href="../Contact/" data-hover style="background:var(--accent);color:#08080a;font-weight:700;padding:9px 20px;border-radius:30px;transition:transform .25s;" style-hover="transform:scale(1.06)"><span data-lang-en>Contact</span><span data-lang-th>ติดต่อ</span></a>
     </div>
   </div>
   <label for="navToggle" class="nav-burger"><span></span><span></span><span></span></label>
@@ -42,15 +51,15 @@
 <header id="top" style="position:relative;min-height:88vh;display:flex;flex-direction:column;justify-content:flex-end;padding:0 clamp(18px,4.5vw,60px) clamp(40px,7vh,80px);overflow:hidden;">
   <div data-parallax="0.10" style="position:absolute;top:0;right:-8%;width:55vw;height:55vw;max-width:760px;max-height:760px;background:var(--accent);border-radius:50%;filter:blur(clamp(50px,18vw,150px));opacity:.12;pointer-events:none;will-change:transform;"></div>
 
-  <a href="UXUI.dc.html" data-hover style="position:relative;display:inline-flex;align-items:center;gap:9px;width:fit-content;margin-bottom:clamp(28px,5vh,56px);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> BACK TO WORK</a>
+  <a href="../UXUI/" data-hover style="position:relative;display:inline-flex;align-items:center;gap:9px;width:fit-content;margin-bottom:clamp(28px,5vh,56px);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> BACK TO WORK</a>
 
   <div style="position:relative;display:flex;align-items:center;gap:12px;margin-bottom:24px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--muted);animation:fadeIn 1s .5s both;">
     <span style="width:7px;height:7px;border-radius:50%;background:var(--accent);animation:blink 1.6s infinite;"></span>
-    <span data-lang-en>CASE STUDY — CORPORATE WEBSITE REVAMP</span><span data-lang-th>เคสสตัดี้ — รีวิวเว็บไซต์องค์กร</span>
+    <span data-lang-en>CASE STUDY — EDUCATION WEBSITE DESIGN</span><span data-lang-th>เคสสตัดี้ — ดีไซน์เว็บไซต์การศึกษา</span>
   </div>
 
   <h1 style="position:relative;margin:0;font-family:'Syne',sans-serif;font-weight:800;line-height:.82;letter-spacing:-.035em;font-size:clamp(26px,9.5vw,160px);text-transform:uppercase;">
-    <span style="display:block;overflow:hidden;padding-bottom:.04em;"><span style="display:block;animation:heroRise 1.05s cubic-bezier(.16,1,.3,1) .12s both;">Pathumflex<span style="color:var(--accent);">.</span></span></span>
+    <span style="display:block;overflow:hidden;padding-bottom:.04em;"><span style="display:block;animation:heroRise 1.05s cubic-bezier(.16,1,.3,1) .12s both;">Copel<span style="color:var(--accent);">.</span></span></span>
   </h1>
 
   <div class="metarow" style="position:relative;margin-top:clamp(34px,6vh,60px);animation:fadeIn 1.1s .7s both;">
@@ -65,7 +74,7 @@
 
 <!-- ============ VISUAL 01 ============ -->
 <section style="line-height:0;">
-  <img src="./Image/Pathumflex/Pathumflex.webp" alt="Pathumflex — Banner" style="display:block;width:100%;height:auto;">
+  <img src="../Image/Copel/Copel.webp" alt="Copel — Banner" style="display:block;width:100%;height:auto;">
 </section>
 
 <!-- ============ THE CHALLENGE ============ -->
@@ -76,12 +85,10 @@
     </div>
     <div data-reveal data-reveal-delay="120">
       <div data-lang-en>
-      <p style="margin:0 0 18px;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">Inheriting a Legacy Design System:</strong> The project involved a large corporate website that, despite having a concise service offering, demanded high attention to critical details. Since I inherited the project from a previous designer, the core challenge was designing the remaining pages while strictly adhering to the established Design System without causing any visual inconsistencies.</p>
-      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">Managing Evolving Client Requirements:</strong> During development, new requirements were introduced, including the integration of a Floating Action Button (FAB) for improved accessibility. Additionally, I had to refine and restructure complex content to perfectly align with the client's shifting vision and high expectations.</p>
+      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;">Since this project's target audience was children, it demanded a <strong style="color:var(--text);">completely new design language</strong> unlike anything we did before. The main challenge was stepping into a project where the client had rejected multiple previous iterations — which naturally raised concerns about client satisfaction, forcing us to be extremely strategic in deciphering their true preferences.</p>
       </div>
       <div data-lang-th>
-      <p style="margin:0 0 18px;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">รับช่วงต่อ design system เดิม:</strong> โปรเจกต์นี้เป็นเว็บไซต์องค์กรขนาดใหญ่ ที่แม้จะมีบริการไม่มาก แต่ต้องใส่ใจรายละเอียดสูงมาก เนื่องจากผมรับช่วงต่อจากดีไซเนอร์คนก่อน โจทย์หลักคือออกแบบหน้าที่เหลือให้ยึด Design System เดิมอย่างเคร่งครัดโดยไม่ให้เกิดความไม่สม่ำเสมอทางภาพ</p>
-      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">รับมือความต้องการที่เปลี่ยนแปลงตลอด:</strong> ระหว่างพัฒนา มีความต้องการใหม่เข้ามาเรื่อยๆ รวมถึงการเพิ่ม Floating Action Button (FAB) เพื่อการเข้าถึงที่ดีขึ้น นอกจากนี้ผมยังต้องปรับและจัดโครงสร้างเนื้อหาที่ซับซ้อนใหม่ ให้ตรงกับวิสัยทัศน์และความคาดหวังสูงของลูกค้าที่เปลี่ยนไปเรื่อยๆ</p>
+      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;">เนื่องจากกลุ่มเป้าหมายของโปรเจกต์นี้คือเด็ก จึงต้องการ <strong style="color:var(--text);">design language ใหม่ทั้งหมด</strong> ที่ต่างจากงานที่เคยทำมา ความท้าทายหลักคือการเข้ามารับช่วงโปรเจกต์ที่ลูกค้าเคยปฏิเสธดราฟต์มาแล้วหลายรอบ ซึ่งทำให้ต้องกังวลเรื่องความพึงพอใจของลูกค้าเป็นพิเศษ และต้องวางกลยุทธ์อย่างรัดกุมเพื่อจับความต้องการที่แท้จริงของลูกค้าให้ได้</p>
       </div>
     </div>
   </div>
@@ -89,12 +96,12 @@
 
 <!-- ============ VISUAL 02 ============ -->
 <section style="line-height:0;">
-  <img src="./Image/Pathumflex/Pathumflex%20Banner.webp" alt="Pathumflex — Detail 1" style="display:block;width:100%;height:auto;">
+  <img src="../Image/Copel/Copel%20Mock%204.webp" alt="Copel — Mock 4" style="display:block;width:100%;height:auto;">
 </section>
 
 <!-- ============ VISUAL 02B ============ -->
 <section style="line-height:0;">
-  <img src="./Image/Pathumflex/Pathumflex%20Mock%202.webp" alt="Pathumflex — Detail 2" style="display:block;width:100%;height:auto;">
+  <img src="../Image/Copel/Copel%20Mock%202.webp" alt="Copel — Mock 2" style="display:block;width:100%;height:auto;">
 </section>
 
 <!-- ============ THE RESULT ============ -->
@@ -105,12 +112,10 @@
     </div>
     <div data-reveal data-reveal-delay="120">
       <div data-lang-en>
-      <p style="margin:0 0 18px;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">Flawless Design Completion:</strong> Successfully revamped and completed all remaining sections of the website, ensuring every single page was delivered. The new elements blended seamlessly into the pre-existing Design System, maintaining complete visual harmony across the platform.</p>
-      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">Frictionless Feature Integration:</strong> Successfully implemented the new client-requested features, such as the Floating Action Button (FAB), significantly improving user engagement. This was achieved without any negative impact or disruption to the core design foundation, leaving the client highly satisfied with the final execution.</p>
+      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;">To resolve this, I thoroughly <strong style="color:var(--text);">audited past documents</strong> and closely consulted with our PM to establish the clearest possible solution, then leveraged AI to efficiently generate supporting visual components. For high-risk screens where the brief was ambiguous, I <strong style="color:var(--text);">proactively created multiple design options</strong> — shifting the client's mindset from disappointment to having tailored choices. As a result, the final deliverables were approved on the very first draft.</p>
       </div>
       <div data-lang-th>
-      <p style="margin:0 0 18px;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">ปิดงานดีไซน์ได้อย่างสมบูรณ์แบบ:</strong> รีวิวและทำหน้าที่เหลือของเว็บไซต์เสร็จครบทุกหน้า องค์ประกอบใหม่เข้ากับ Design System เดิมได้อย่างกลมกลืน รักษาความสม่ำเสมอทางภาพทั่วทั้งแพลตฟอร์ม</p>
-      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;"><strong style="color:var(--text);">เพิ่มฟีเจอร์ได้อย่างราบรื่น:</strong> ใส่ฟีเจอร์ใหม่ที่ลูกค้าต้องการ เช่น Floating Action Button (FAB) ได้สำเร็จ ช่วยเพิ่ม engagement ของผู้ใช้อย่างมาก โดยไม่กระทบโครงสร้างดีไซน์หลักเลย ลูกค้าพึงพอใจกับผลงานสุดท้ายมาก</p>
+      <p style="margin:0;font-size:clamp(15px,1.5vw,17px);line-height:1.7;color:#c7c7c9;">เพื่อแก้ปัญหานี้ ผม <strong style="color:var(--text);">ตรวจสอบเอกสารเก่าอย่างละเอียด</strong> และปรึกษากับ PM อย่างใกล้ชิดเพื่อหาทางออกที่ชัดเจนที่สุด จากนั้นใช้ AI ช่วยสร้าง visual component เสริมอย่างมีประสิทธิภาพ สำหรับหน้าจอที่มีความเสี่ยงสูงและโจทย์ยังไม่ชัดเจน ผม <strong style="color:var(--text);">สร้างตัวเลือกดีไซน์หลายแบบล่วงหน้า</strong> เปลี่ยนมุมมองของลูกค้าจากความผิดหวังให้กลายเป็นการมีตัวเลือกที่ปรับได้ตามใจ ผลคือดราฟต์แรกได้รับการอนุมัติทันที</p>
       </div>
     </div>
   </div>
@@ -118,7 +123,7 @@
 
 <!-- ============ VISUAL 03 ============ -->
 <section style="line-height:0;">
-  <img src="./Image/Pathumflex/Pathumflex%20Mock%203.webp" alt="Pathumflex — Mock 3" style="display:block;width:100%;height:auto;">
+  <img src="../Image/Copel/Copel%20Mock%203.webp" alt="Copel — Mock 3" style="display:block;width:100%;height:auto;">
 </section>
 
 <!-- ============ DESIGN SYSTEM SPECS ============ -->
@@ -141,15 +146,15 @@
       <div style="display:flex;flex-direction:column;border-top:1px solid var(--line);">
         <div style="padding:16px 0;border-bottom:1px solid var(--line);">
           <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;">DISPLAY</div>
-          <div style="font-size:clamp(34px,7vw,60px);font-weight:800;">Mulish Bold</div>
+          <div style="font-size:clamp(34px,7vw,60px);font-weight:800;">Zen Maru Bold</div>
         </div>
         <div style="padding:16px 0;border-bottom:1px solid var(--line);">
           <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;">HEADLINE</div>
-          <div style="font-size:clamp(24px,4.5vw,40px);font-weight:700;">Mulish Bold</div>
+          <div style="font-size:clamp(24px,4.5vw,40px);font-weight:700;">Zen Maru Bold</div>
         </div>
         <div style="padding:16px 0;border-bottom:1px solid var(--line);">
           <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--muted);margin-bottom:6px;">BODY</div>
-          <div style="font-size:clamp(14px,1.8vw,16px);font-weight:400;">Mulish Regular</div>
+          <div style="font-size:clamp(14px,1.8vw,16px);font-weight:400;">Zen Maru Regular</div>
         </div>
       </div>
     </div>
@@ -168,7 +173,7 @@
       <a href="tel:+66955901276" data-hover style="color:var(--muted);transition:color .3s;" style-hover="color:var(--text)">095-590-1276</a>
     </div>
     <div data-reveal style="margin-top:clamp(28px,5vh,50px);">
-      <a href="UXUI.dc.html" data-hover style="display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> <span data-lang-en>View other work</span><span data-lang-th>ดูผลงานอื่นๆ</span></a>
+      <a href="../UXUI/" data-hover style="display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> <span data-lang-en>View other work</span><span data-lang-th>ดูผลงานอื่นๆ</span></a>
     </div>
   </div>
   <div style="position:relative;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-top:clamp(50px,9vh,110px);padding-top:24px;border-top:1px solid var(--line);font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted);">
@@ -186,14 +191,14 @@ class Component extends DCLogic {
   renderVals() {
     return {
       meta: [
-        { k: 'ROLE', vEn: 'Website Design Revamp', vTh: 'รีวิวดีไซน์เว็บไซต์' },
+        { k: 'ROLE', vEn: 'Design Revamp', vTh: 'รีวิวดีไซน์' },
         { k: 'DATE', vEn: 'May — Jun 2026', vTh: 'พ.ค. — มิ.ย. 2569' },
-        { k: 'TOOLS', vEn: 'Figma', vTh: 'Figma' }
+        { k: 'TOOLS', vEn: 'Figma, AI', vTh: 'Figma, AI' }
       ],
       palette: [
-        { name: 'Primary', hex: '#F5F5F5' },
-        { name: 'Secondary', hex: '#03599F' },
-        { name: 'Accent', hex: '#7EC53D' }
+        { name: 'Primary', hex: '#EDF4FA' },
+        { name: 'Secondary', hex: '#8ED7F6' },
+        { name: 'Accent', hex: '#FBBE0D' }
       ]
     };
   }

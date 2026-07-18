@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJKXVH5P0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LJKXVH5P0V');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
+<script src="../support.js"></script>
 </head>
 <body>
 <x-dc>
 <helmet>
-<link rel="icon" type="image/svg+xml" href="./Image/Logo.svg">
+<link rel="icon" type="image/svg+xml" href="../Image/Logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../style.css">
 </helmet>
 
 <div data-progress style="position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:120;will-change:width;"></div>
 
 <nav style="position:fixed;top:0;left:0;width:100%;height:76px;z-index:90;display:flex;justify-content:space-between;align-items:center;padding:0 clamp(18px,4.5vw,60px);box-sizing:border-box;mix-blend-mode:difference;transition:background .3s ease;">
-  <a href="index.html" data-hover style="display:flex;align-items:center;font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:-.01em;color:#fff;"><span class="nav-logo-text">Nathapol Aubdin<sup style="font-size:9px;font-weight:700;vertical-align:super;">®</sup></span><img src="./Image/Logo.svg" alt="Nathapol Aubdin" class="nav-logo-img"></a>
+  <a href="../" data-hover style="display:flex;align-items:center;font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:-.01em;color:#fff;"><span class="nav-logo-text">Nathapol Aubdin<sup style="font-size:9px;font-weight:700;vertical-align:super;">®</sup></span><img src="../Image/Logo.svg" alt="Nathapol Aubdin" class="nav-logo-img"></a>
   <input type="checkbox" id="navToggle" class="nav-toggle-cb">
   <label for="navToggle" class="nav-backdrop" aria-hidden="true"></label>
   <div class="navlinks" style="display:flex;gap:clamp(14px,2vw,28px);align-items:center;font-size:13px;font-weight:600;">
-    <a href="index.html" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Home</span><span data-lang-th>หน้าแรก</span></a>
-    <a href="UXUI.dc.html" data-hover style="color:#fff;text-decoration:none;">UX/UI</a>
-    <a href="Graphics.dc.html" data-hover style="position:relative;color:#fff;text-decoration:none;"><span data-lang-en>Graphics</span><span data-lang-th>กราฟิก</span><span class="nav-active-dot" style="position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);width:18px;height:2.5px;border-radius:2px;background:var(--accent);"></span></a>
-    <a href="About.dc.html" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>About</span><span data-lang-th>เกี่ยวกับ</span></a>
+    <a href="../" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>Home</span><span data-lang-th>หน้าแรก</span></a>
+    <a href="../UXUI/" data-hover style="color:#fff;text-decoration:none;">UX/UI</a>
+    <a href="../Graphics/" data-hover style="position:relative;color:#fff;text-decoration:none;"><span data-lang-en>Graphics</span><span data-lang-th>กราฟิก</span><span class="nav-active-dot" style="position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);width:18px;height:2.5px;border-radius:2px;background:var(--accent);"></span></a>
+    <a href="../About/" data-hover style="color:#fff;text-decoration:none;"><span data-lang-en>About</span><span data-lang-th>เกี่ยวกับ</span></a>
     <div class="nav-actions" style="display:flex;align-items:center;gap:10px;">
       <div class="lang-toggle" role="group" aria-label="Language">
         <button type="button" data-lang-btn="en" data-hover class="lang-btn">EN</button>
         <button type="button" data-lang-btn="th" data-hover class="lang-btn">TH</button>
       </div>
-      <a href="./Resume/Nathapol-Aubdin-Resume.pdf" target="_blank" rel="noopener" data-hover style="display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:8px 16px;color:#fff;text-decoration:none;background:rgba(255,255,255,.03);transition:border-color .25s,color .25s;" style-hover="border-color:var(--accent);color:var(--accent)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span data-lang-en>Resume</span><span data-lang-th>เรซูเม่</span></a>
-      <a href="Contact.dc.html" data-hover style="background:var(--accent);color:#08080a;font-weight:700;padding:9px 20px;border-radius:30px;transition:transform .25s;" style-hover="transform:scale(1.06)"><span data-lang-en>Contact</span><span data-lang-th>ติดต่อ</span></a>
+      <a href="../Resume/Nathapol-Aubdin-Resume.pdf" target="_blank" rel="noopener" data-hover style="display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:8px 16px;color:#fff;text-decoration:none;background:rgba(255,255,255,.03);transition:border-color .25s,color .25s;" style-hover="border-color:var(--accent);color:var(--accent)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg><span data-lang-en>Resume</span><span data-lang-th>เรซูเม่</span></a>
+      <a href="../Contact/" data-hover style="background:var(--accent);color:#08080a;font-weight:700;padding:9px 20px;border-radius:30px;transition:transform .25s;" style-hover="transform:scale(1.06)"><span data-lang-en>Contact</span><span data-lang-th>ติดต่อ</span></a>
     </div>
   </div>
   <label for="navToggle" class="nav-burger"><span></span><span></span><span></span></label>
@@ -42,7 +51,7 @@
 <header id="top" style="position:relative;min-height:70vh;display:flex;flex-direction:column;justify-content:flex-end;padding:0 clamp(18px,4.5vw,60px) clamp(40px,7vh,80px);overflow:hidden;">
   <div data-parallax="0.10" style="position:absolute;top:0;right:-8%;width:55vw;height:55vw;max-width:760px;max-height:760px;background:var(--accent);border-radius:50%;filter:blur(clamp(50px,18vw,150px));opacity:.12;pointer-events:none;will-change:transform;"></div>
 
-  <a href="index.html#graphics" data-hover style="position:relative;display:inline-flex;align-items:center;gap:9px;width:fit-content;margin-bottom:clamp(28px,5vh,56px);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> BACK TO HOME</a>
+  <a href="../#graphics" data-hover style="position:relative;display:inline-flex;align-items:center;gap:9px;width:fit-content;margin-bottom:clamp(28px,5vh,56px);font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> BACK TO HOME</a>
 
   <div style="position:relative;display:flex;align-items:center;gap:12px;margin-bottom:24px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;color:var(--muted);animation:fadeIn 1s .5s both;">
     <span style="width:7px;height:7px;border-radius:50%;background:var(--accent);animation:blink 1.6s infinite;"></span>
@@ -72,34 +81,34 @@
     <div style="display:flex;justify-content:center;flex-wrap:wrap;align-items:flex-end;gap:16px;">
       <div style="display:flex;align-items:flex-end;gap:16px;">
         <div class="fcard" data-hover data-reveal style="width:400px;height:320px;">
-          <img src="./Image/Graphic/Fender/Indio%202%20Deller%201%20copy.webp" alt="Fender Indio 2" style-hover="transform:scale(1.06)">
+          <img src="../Image/Graphic/Fender/Indio%202%20Deller%201%20copy.webp" alt="Fender Indio 2" style-hover="transform:scale(1.06)">
         </div>
         <div class="fcard" data-hover data-reveal style="width:300px;height:375px;">
-          <img src="./Image/Graphic/Fender/Indio%202%20Deller%202-2%20copy.webp" alt="Fender Indio 2 Deller" style-hover="transform:scale(1.06)">
+          <img src="../Image/Graphic/Fender/Indio%202%20Deller%202-2%20copy.webp" alt="Fender Indio 2 Deller" style-hover="transform:scale(1.06)">
         </div>
       </div>
 
       <div style="display:flex;flex-direction:column;gap:21px;">
         <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
           <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-            <img src="./Image/Graphic/Fender/Fender%20Tour.webp" alt="Fender Tour" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Fender%20Tour.webp" alt="Fender Tour" style-hover="transform:scale(1.06)">
           </div>
           <div style="display:flex;flex-direction:column;gap:24px;">
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/Fender/Lone%202%20-%20Shopee%20copy.webp" alt="Fender Newport promo" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Fender/Lone%202%20-%20Shopee%20copy.webp" alt="Fender Newport promo" style-hover="transform:scale(1.06)">
             </div>
             <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/Lower%20Price%20Montarey%20copy.webp" alt="Fender Monterey" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/Lower%20Price%20Montarey%20copy.webp" alt="Fender Monterey" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/3%20Tweed%20พี่ต๊อบ%20copy-2.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/3%20Tweed%20พี่ต๊อบ%20copy-2.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/ช้อปดีมีคืน%202566%20Fender%20copy.webp" alt="Fender ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/ช้อปดีมีคืน%202566%20Fender%20copy.webp" alt="Fender ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/Double%20Newport%202-1.webp" alt="Fender Double Newport" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/Double%20Newport%202-1.webp" alt="Fender Double Newport" style-hover="transform:scale(1.06)">
               </div>
             </div>
           </div>
@@ -107,22 +116,22 @@
 
         <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Untitled-6.webp" alt="Fender Monterey green" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Untitled-6.webp" alt="Fender Monterey green" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Lone%201-1.webp" alt="Fender Newport 2 promo" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Lone%201-1.webp" alt="Fender Newport 2 promo" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Free%20Bag%20Indio%202-1%20copy.webp" alt="Fender Free Bag Indio" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Free%20Bag%20Indio%202-1%20copy.webp" alt="Fender Free Bag Indio" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Double%20Newport%202-2.webp" alt="Fender Double Newport" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Double%20Newport%202-2.webp" alt="Fender Double Newport" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Newport%20Art%203%20copy.webp" alt="Fender Newport Art" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Newport%20Art%203%20copy.webp" alt="Fender Newport Art" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Newport%20Art%202%20copy.webp" alt="Fender Newport Art" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Newport%20Art%202%20copy.webp" alt="Fender Newport Art" style-hover="transform:scale(1.06)">
           </div>
         </div>
       </div>
@@ -133,66 +142,66 @@
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:16px;">
         <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/3%20Tweed%20พี่ต๊อบ%20copy.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/3%20Tweed%20พี่ต๊อบ%20copy.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Gift%20Voucher%204-2%20copy.webp" alt="Fender Gift Voucher" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Gift%20Voucher%204-2%20copy.webp" alt="Fender Gift Voucher" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Free%20Netflix-1%20.webp" alt="Fender Free Netflix" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Free%20Netflix-1%20.webp" alt="Fender Free Netflix" style-hover="transform:scale(1.06)">
           </div>
         </div>
         <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/Sale%201%20copy.webp" alt="Fender Sale" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Sale%201%20copy.webp" alt="Fender Sale" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-            <img src="./Image/Graphic/Fender/1%20Newport2%20Summer%202-Lazada.webp" alt="Fender Newport2 Summer" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/1%20Newport2%20Summer%202-Lazada.webp" alt="Fender Newport2 Summer" style-hover="transform:scale(1.06)">
           </div>
         </div>
       </div>
 
       <div style="display:flex;flex-direction:column;gap:16px;width:204px;">
         <div class="fcard" data-hover data-reveal style="width:100%;height:204px;">
-          <img src="./Image/Graphic/Fender/1%20Fender%20Riff%20Pre%20order%20copy.webp" alt="Fender Riff Pre-order" style-hover="transform:scale(1.06)">
+          <img src="../Image/Graphic/Fender/1%20Fender%20Riff%20Pre%20order%20copy.webp" alt="Fender Riff Pre-order" style-hover="transform:scale(1.06)">
         </div>
         <div class="fcard" data-hover data-reveal style="width:100%;height:204px;">
-          <img src="./Image/Graphic/Fender/ตรุษจีน%20INDIO%20Tweed%20copy-1.webp" alt="Fender CNY Indio Tweed" style-hover="transform:scale(1.06)">
+          <img src="../Image/Graphic/Fender/ตรุษจีน%20INDIO%20Tweed%20copy-1.webp" alt="Fender CNY Indio Tweed" style-hover="transform:scale(1.06)">
         </div>
         <div class="fcard" data-hover data-reveal style="width:100%;height:204px;">
-          <img src="./Image/Graphic/Fender/1%20Songkran-Fender%20copy.webp" alt="Fender Songkran" style-hover="transform:scale(1.06)">
+          <img src="../Image/Graphic/Fender/1%20Songkran-Fender%20copy.webp" alt="Fender Songkran" style-hover="transform:scale(1.06)">
         </div>
       </div>
 
       <div style="display:flex;flex-direction:column;gap:16px;">
         <div style="display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;">
           <div class="fcard" data-hover data-reveal style="width:361px;height:420px;">
-            <img src="./Image/Graphic/Fender/Free%20List%201%20Lazada.webp" alt="Fender Free List giveaway" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Free%20List%201%20Lazada.webp" alt="Fender Free List giveaway" style-hover="transform:scale(1.06)">
           </div>
           <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-            <img src="./Image/Graphic/Fender/S__87654402%20-%20แก้ราคา%20copy.webp" alt="Fender Monterfy" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/S__87654402%20-%20แก้ราคา%20copy.webp" alt="Fender Monterfy" style-hover="transform:scale(1.06)">
           </div>
           <div style="display:flex;flex-direction:column;justify-content:center;gap:16px;">
             <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/1%20Fender%20Riff%20Comming%201%20copy.webp" alt="Fender Riff Coming Soon" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/1%20Fender%20Riff%20Comming%201%20copy.webp" alt="Fender Riff Coming Soon" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/Fender%20Note%20Lazada.webp" alt="Fender Notebook" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/Fender%20Note%20Lazada.webp" alt="Fender Notebook" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/Free%20Bag%20Newport%202-1.webp" alt="Fender Free Bag Newport" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/Free%20Bag%20Newport%202-1.webp" alt="Fender Free Bag Newport" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/1%20Newport2%20Summer%20copy%202.webp" alt="Fender Newport2 Summer" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/1%20Newport2%20Summer%20copy%202.webp" alt="Fender Newport2 Summer" style-hover="transform:scale(1.06)">
               </div>
             </div>
             <div style="display:flex;align-items:center;justify-content:left;gap:16px;flex-wrap:wrap;">
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/ตรุษจีน%20Newport%202%202-1%20copy.webp" alt="Fender CNY Newport" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/ตรุษจีน%20Newport%202%202-1%20copy.webp" alt="Fender CNY Newport" style-hover="transform:scale(1.06)">
               </div>
               <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                <img src="./Image/Graphic/Fender/Lone%201%20-%20Shopee%20copy.webp" alt="Fender Newport promo" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Fender/Lone%201%20-%20Shopee%20copy.webp" alt="Fender Newport promo" style-hover="transform:scale(1.06)">
               </div>
             </div>
           </div>
@@ -201,14 +210,14 @@
         <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
           <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;width:420px;">
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/Fender/Lower%20Price%20Tweed%20copy.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Fender/Lower%20Price%20Tweed%20copy.webp" alt="Fender Tweed" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/Fender/Tweed%20Diary%20Post.webp" alt="Fender Tweed Diary" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Fender/Tweed%20Diary%20Post.webp" alt="Fender Tweed Diary" style-hover="transform:scale(1.06)">
             </div>
           </div>
           <div class="fcard" data-hover data-reveal style="width:343px;height:200px;">
-            <img src="./Image/Graphic/Fender/Fender.webp" alt="Fender" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Fender/Fender.webp" alt="Fender" style-hover="transform:scale(1.06)">
           </div>
         </div>
       </div>
@@ -233,26 +242,26 @@
 
           <div style="display:flex;justify-content:center;flex-wrap:wrap;align-items:flex-end;gap:16px;">
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/OTR.webp" alt="Muzen OTR" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/OTR.webp" alt="Muzen OTR" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/Button.webp" alt="Muzen OTR color range" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Button.webp" alt="Muzen OTR color range" style-hover="transform:scale(1.06)">
             </div>
             <div style="display:flex;flex-direction:column;gap:16px;">
               <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/ช้อปดีมีคืน%202566%20Muzen%20copy.webp" alt="Muzen ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/ช้อปดีมีคืน%202566%20Muzen%20copy.webp" alt="Muzen ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
                 </div>
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/pili%20disco%20copy.webp" alt="Muzen Pili Disco" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/pili%20disco%20copy.webp" alt="Muzen Pili Disco" style-hover="transform:scale(1.06)">
                 </div>
               </div>
               <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/Wild%20Go%20copy.webp" alt="Muzen Wild Go" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/Wild%20Go%20copy.webp" alt="Muzen Wild Go" style-hover="transform:scale(1.06)">
                 </div>
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/7-11%20Wild%20Mini%20copy.webp" alt="Muzen Wild Mini post" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/7-11%20Wild%20Mini%20copy.webp" alt="Muzen Wild Mini post" style-hover="transform:scale(1.06)">
                 </div>
               </div>
             </div>
@@ -260,25 +269,25 @@
 
           <div style="display:flex;justify-content:center;flex-wrap:wrap;align-items:flex-start;gap:16px;">
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/7-4%20Wild%20Go%20copy.webp" alt="Muzen Wild Go post" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/7-4%20Wild%20Go%20copy.webp" alt="Muzen Wild Go post" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/8-8%20Wild%20Mini%20copy.webp" alt="Muzen Wild Mini post" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/8-8%20Wild%20Mini%20copy.webp" alt="Muzen Wild Mini post" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/8-15%20Wild%20Go%20copy.webp" alt="Muzen Wild Go post" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/8-15%20Wild%20Go%20copy.webp" alt="Muzen Wild Go post" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-              <img src="./Image/Graphic/8-22%20Pili%20Disco%20copy.webp" alt="Muzen Pili Disco post" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/8-22%20Pili%20Disco%20copy.webp" alt="Muzen Pili Disco post" style-hover="transform:scale(1.06)">
             </div>
           </div>
 
           <div style="display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;">
             <div class="fcard" data-hover data-reveal style="width:343px;height:200px;">
-              <img src="./Image/Graphic/pili%20disco%202%20copy.webp" alt="Muzen Pili Disco banner" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/pili%20disco%202%20copy.webp" alt="Muzen Pili Disco banner" style-hover="transform:scale(1.06)">
             </div>
             <div class="fcard" data-hover data-reveal style="width:343px;height:200px;">
-              <img src="./Image/Graphic/Wild%20Go%202%20copy.webp" alt="Muzen Wild Go banner" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Wild%20Go%202%20copy.webp" alt="Muzen Wild Go banner" style-hover="transform:scale(1.06)">
             </div>
           </div>
 
@@ -297,50 +306,50 @@
 
           <div style="display:flex;justify-content:center;flex-wrap:wrap;align-items:flex-end;gap:16px;">
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/Adventurer%20Max%201.webp" alt="Monster Adventurer Max" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Adventurer%20Max%201.webp" alt="Monster Adventurer Max" style-hover="transform:scale(1.06)">
             </div>
             <div style="display:flex;flex-direction:column;gap:16px;">
               <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/8-11%20Sparkle%20copy.webp" alt="Monster Sparkle post" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/8-11%20Sparkle%20copy.webp" alt="Monster Sparkle post" style-hover="transform:scale(1.06)">
                 </div>
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/8-18%20S110%20copy.webp" alt="Monster S110 post" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/8-18%20S110%20copy.webp" alt="Monster S110 post" style-hover="transform:scale(1.06)">
                 </div>
               </div>
               <div class="fcard" data-hover data-reveal style="width:416px;height:234px;">
-                <img src="./Image/Graphic/sparkle%202%20copy.webp" alt="Monster Sparkle banner" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/sparkle%202%20copy.webp" alt="Monster Sparkle banner" style-hover="transform:scale(1.06)">
               </div>
             </div>
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/Adventurer%20Max%202.webp" alt="Monster Adventurer Max dark" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Adventurer%20Max%202.webp" alt="Monster Adventurer Max dark" style-hover="transform:scale(1.06)">
             </div>
           </div>
 
           <div style="display:flex;justify-content:center;flex-wrap:wrap;align-items:flex-start;gap:16px;">
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/S110-1%20Edit.webp" alt="Monster S110 Super Star" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/S110-1%20Edit.webp" alt="Monster S110 Super Star" style-hover="transform:scale(1.06)">
             </div>
             <div style="display:flex;flex-direction:column;gap:16px;">
               <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/ช้อปดีมีคืน%202566%20Monster%20copy.webp" alt="Monster ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/ช้อปดีมีคืน%202566%20Monster%20copy.webp" alt="Monster ช้อปดีมีคืน 2566" style-hover="transform:scale(1.06)">
                 </div>
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/sparkle%20copy.webp" alt="Monster Sparkle" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/sparkle%20copy.webp" alt="Monster Sparkle" style-hover="transform:scale(1.06)">
                 </div>
               </div>
               <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/7-7%20Sparkle%20copy.webp" alt="Monster Sparkle post" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/7-7%20Sparkle%20copy.webp" alt="Monster Sparkle post" style-hover="transform:scale(1.06)">
                 </div>
                 <div class="fcard" data-hover data-reveal style="width:200px;height:200px;">
-                  <img src="./Image/Graphic/7-14%20S310%20copy.webp" alt="Monster S310 post" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/7-14%20S310%20copy.webp" alt="Monster S310 post" style-hover="transform:scale(1.06)">
                 </div>
               </div>
             </div>
             <div class="fcard" data-hover data-reveal style="width:300px;height:424px;">
-              <img src="./Image/Graphic/S310-1%20Edit.webp" alt="Monster S310" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/S310-1%20Edit.webp" alt="Monster S310" style-hover="transform:scale(1.06)">
             </div>
           </div>
 
@@ -366,24 +375,24 @@
           <div class="sudio-left">
             <div class="sudio-image-row">
               <div data-hover data-reveal class="image-tall" style="overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-                <img src="./Image/Graphic/Sudio/NIO.webp" alt="Sudio campaign image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+                <img src="../Image/Graphic/Sudio/NIO.webp" alt="Sudio campaign image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
               </div>
               <div class="sudio-small-stack offset">
                 <div data-hover data-reveal class="image-square" style="overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-                  <img src="./Image/Graphic/Sudio/1%20Sudio%20A1-1%20copy.webp" alt="Sudio product image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/Sudio/1%20Sudio%20A1-1%20copy.webp" alt="Sudio product image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
                 </div>
                 <div data-hover data-reveal class="image-square" style="overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-                  <img src="./Image/Graphic/Sudio/ช้อปดีมีคืน%202566%20Sudio%20copy.webp" alt="Sudio promotion image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+                  <img src="../Image/Graphic/Sudio/ช้อปดีมีคืน%202566%20Sudio%20copy.webp" alt="Sudio promotion image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
                 </div>
               </div>
             </div>
           </div>
           <div class="sudio-small-stack">
             <div data-hover data-reveal class="image-tall" style="overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-              <img src="./Image/Graphic/Sudio/ETT.webp" alt="Sudio lifestyle image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Sudio/ETT.webp" alt="Sudio lifestyle image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
             </div>
             <div data-hover data-reveal class="image-square" style="overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-              <img src="./Image/Graphic/Sudio/1%20Sudio%20A1%20Black-1%20copy.webp" alt="Sudio black product image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Sudio/1%20Sudio%20A1%20Black-1%20copy.webp" alt="Sudio black product image" style="display:block;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
             </div>
           </div>
         </div>
@@ -399,14 +408,14 @@
       <div class="sudiogens-scale-wrap">
         <div class="sudiogens-scale-inner" style="display:flex;align-items:center;gap:16px;">
           <div data-hover data-reveal style="line-height:0;overflow:hidden;border-radius:6px;border:1px solid var(--line);width:200px;flex-shrink:0;">
-            <img src="./Image/Graphic/Generation-S/1-Ub%2B%20copy.webp" alt="Gen-S dB1 / S1 Circle" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+            <img src="../Image/Graphic/Generation-S/1-Ub%2B%20copy.webp" alt="Gen-S dB1 / S1 Circle" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
           </div>
           <div style="display:flex;flex-direction:column;gap:16px;width:200px;flex-shrink:0;">
             <div data-hover data-reveal style="line-height:0;overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-              <img src="./Image/Graphic/Generation-S/ช้อปดีมีคืน%202566%20Gadget%20copy.webp" alt="Gen-S Gadget" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Generation-S/ช้อปดีมีคืน%202566%20Gadget%20copy.webp" alt="Gen-S Gadget" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
             </div>
             <div data-hover data-reveal data-reveal-delay="90" style="line-height:0;overflow:hidden;border-radius:6px;border:1px solid var(--line);">
-              <img src="./Image/Graphic/Generation-S/ช้อปดีมีคืน%202566%20Audio%20copy.webp" alt="Gen-S Audio" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
+              <img src="../Image/Graphic/Generation-S/ช้อปดีมีคืน%202566%20Audio%20copy.webp" alt="Gen-S Audio" style="display:block;width:100%;height:auto;transition:transform .9s cubic-bezier(.16,1,.3,1);" style-hover="transform:scale(1.06)">
             </div>
           </div>
         </div>
@@ -443,7 +452,7 @@
       <a href="tel:+66955901276" data-hover style="color:var(--muted);transition:color .3s;" style-hover="color:var(--text)">095-590-1276</a>
     </div>
     <div data-reveal style="margin-top:clamp(28px,5vh,50px);">
-      <a href="index.html#graphics" data-hover style="display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> <span data-lang-en>Back to Home</span><span data-lang-th>กลับหน้าแรก</span></a>
+      <a href="../#graphics" data-hover style="display:inline-flex;align-items:center;gap:9px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.1em;color:var(--muted);transition:color .3s;" style-hover="color:var(--text)"><span style="font-size:15px;">←</span> <span data-lang-en>Back to Home</span><span data-lang-th>กลับหน้าแรก</span></a>
     </div>
   </div>
   <div style="position:relative;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-top:clamp(50px,9vh,110px);padding-top:24px;border-top:1px solid var(--line);font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted);">
@@ -461,14 +470,14 @@ class Component extends DCLogic {
   renderVals() {
     return {
       noir: [
-        { src: './Image/Graphic/Freelance/Final.webp', alt: 'Noir x Mountain King', delay: 0 },
-        { src: './Image/Graphic/Freelance/IG%20Story%201080x1920%20copy.webp', alt: 'Noir Lady Night', delay: 60 },
-        { src: './Image/Graphic/Freelance/IG%20Story%201080x1920%20-%204-1%20copy.webp', alt: 'Noir Free Night Ladies', delay: 120 },
-        { src: './Image/Graphic/Freelance/1920x1080%20copy-4.webp', alt: 'Noir Halloween Event', delay: 180 },
-        { src: './Image/Graphic/Freelance/1080x1920%20copy-3.webp', alt: 'Noir Halloween Party', delay: 0 },
-        { src: './Image/Graphic/Freelance/2%201080x1920%20copy-4.webp', alt: 'Noir Beer Box', delay: 60 },
-        { src: './Image/Graphic/Freelance/4%201080x1920%20copy.webp', alt: 'Noir Free Night Ladies', delay: 120 },
-        { src: './Image/Graphic/Freelance/1%201080x1920%20copy.webp', alt: 'Noir 99 Buffet Mixxer', delay: 180 }
+        { src: '../Image/Graphic/Freelance/Final.webp', alt: 'Noir x Mountain King', delay: 0 },
+        { src: '../Image/Graphic/Freelance/IG%20Story%201080x1920%20copy.webp', alt: 'Noir Lady Night', delay: 60 },
+        { src: '../Image/Graphic/Freelance/IG%20Story%201080x1920%20-%204-1%20copy.webp', alt: 'Noir Free Night Ladies', delay: 120 },
+        { src: '../Image/Graphic/Freelance/1920x1080%20copy-4.webp', alt: 'Noir Halloween Event', delay: 180 },
+        { src: '../Image/Graphic/Freelance/1080x1920%20copy-3.webp', alt: 'Noir Halloween Party', delay: 0 },
+        { src: '../Image/Graphic/Freelance/2%201080x1920%20copy-4.webp', alt: 'Noir Beer Box', delay: 60 },
+        { src: '../Image/Graphic/Freelance/4%201080x1920%20copy.webp', alt: 'Noir Free Night Ladies', delay: 120 },
+        { src: '../Image/Graphic/Freelance/1%201080x1920%20copy.webp', alt: 'Noir 99 Buffet Mixxer', delay: 180 }
       ]
     };
   }
